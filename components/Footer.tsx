@@ -45,6 +45,13 @@ export default function Footer() {
             <p className="text-sm text-muted">
               Ready to build something?
               <br />
+              <a
+                href="mailto:tamas@czaban.dev"
+                className="text-primary transition-colors hover:text-primary-dark"
+              >
+                tamas@czaban.dev
+              </a>
+              <br />
               <Link
                 href="/contact"
                 className="text-primary transition-colors hover:text-primary-dark"

@@ -26,8 +26,15 @@ export default function ContactPage() {
             Contact Us
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-muted">
-            Have a project in mind? Book a free discovery call or send us a
-            message.
+            Have a project in mind? Book a free discovery call, send us a
+            message, or email us directly at{" "}
+            <a
+              href="mailto:tamas@czaban.dev"
+              className="text-primary hover:underline"
+            >
+              tamas@czaban.dev
+            </a>
+            .
           </p>
         </div>
       </section>
