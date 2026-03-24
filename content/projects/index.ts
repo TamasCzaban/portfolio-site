@@ -91,7 +91,12 @@ export const projects: Project[] = [
     subtitle: "Internal sales pipeline and lead tracking for a dev agency",
     description:
       "A live sales operations dashboard built for CZ Dev to track leads, pipeline stages, and revenue metrics. Replaces spreadsheets with a real-time, structured view of the agency's sales funnel.",
-    thumbnail: "/images/sales-dashboard-thumb.svg",
+    thumbnail: "/images/sales-dashboard-1-kpis.png",
+    screenshots: [
+      { src: "/images/sales-dashboard-1-kpis.png", caption: "KPI Overview — total revenue, orders, avg order value, and MoM comparison chart" },
+      { src: "/images/sales-dashboard-2-revenue.png", caption: "Revenue & Products — revenue trend, product breakdown, and churn signals" },
+      { src: "/images/sales-dashboard-3-customers.png", caption: "Customer Insights — new vs returning, top customers by revenue, and full customer table" },
+    ],
     techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
     featured: true,
     problem:
