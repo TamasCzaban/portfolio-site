@@ -85,6 +85,30 @@ export const projects: Project[] = [
     ],
     githubUrl: "https://github.com/tczaban/vuln-prioritization-scorer",
   },
+  {
+    slug: "sales-dashboard",
+    title: "CZ Dev Sales Dashboard",
+    subtitle: "Internal sales pipeline and lead tracking for a dev agency",
+    description:
+      "A live sales operations dashboard built for CZ Dev to track leads, pipeline stages, and revenue metrics. Replaces spreadsheets with a real-time, structured view of the agency's sales funnel.",
+    thumbnail: "/images/sales-dashboard-thumb.svg",
+    techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
+    featured: true,
+    problem:
+      "Running a dev agency means juggling inbound leads, follow-ups, proposals, and pipeline stages — all in your head or scattered across spreadsheets. There's no single place to see deal status, conversion rates, or revenue forecasts.",
+    solution: [
+      "Built a dedicated sales dashboard for the CZ Dev agency",
+      "Tracks leads through the full pipeline from first contact to close",
+      "Real-time KPI cards: active leads, pipeline value, conversion rate, revenue",
+      "Structured deal view with status, owner, and next action",
+    ],
+    results: [
+      "Live in production at sales.czaban.dev",
+      "Full visibility into the CZ Dev sales funnel",
+      "Replaces manual spreadsheet tracking",
+    ],
+    demoUrl: "https://sales.czaban.dev/dashboard",
+  },
 ];
 
 export function getProject(slug: string): Project | undefined {
