@@ -2,22 +2,37 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import LanguageSwitcher from "./LanguageSwitcher";
 
-const links = [
-  { href: "/", label: "Home" },
-  { href: "/services", label: "Services" },
-  { href: "/portfolio", label: "Portfolio" },
-  { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
-];
+interface NavDict {
+  home: string;
+  services: string;
+  portfolio: string;
+  about: string;
+  contact: string;
+  cta: string;
+}
 
-export default function Navbar() {
+interface NavbarProps {
+  locale: string;
+  nav: NavDict;
+}
+
+export default function Navbar({ locale, nav }: NavbarProps) {
   const [open, setOpen] = useState(false);
+
+  const links = [
+    { href: `/${locale}`, label: nav.home },
+    { href: `/${locale}/services`, label: nav.services },
+    { href: `/${locale}/portfolio`, label: nav.portfolio },
+    { href: `/${locale}/about`, label: nav.about },
+    { href: `/${locale}/contact`, label: nav.contact },
+  ];
 
   return (
     <nav className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <Link href="/" className="text-xl font-bold tracking-tight">
+        <Link href={`/${locale}`} className="text-xl font-bold tracking-tight">
           <span className="text-primary">CZ</span> Dev
         </Link>
 
@@ -35,12 +50,15 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <Link
-          href="/contact"
-          className="hidden rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-primary-dark md:inline-block"
-        >
-          Get in Touch
-        </Link>
+        <div className="hidden items-center gap-3 md:flex">
+          <LanguageSwitcher locale={locale} />
+          <Link
+            href={`/${locale}/contact`}
+            className="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-primary-dark"
+          >
+            {nav.cta}
+          </Link>
+        </div>
 
         {/* Mobile toggle */}
         <button
@@ -48,26 +66,11 @@ export default function Navbar() {
           onClick={() => setOpen(!open)}
           aria-label="Toggle menu"
         >
-          <svg
-            className="h-6 w-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
+          <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             {open ? (
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M6 18L18 6M6 6l12 12"
-              />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
             ) : (
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 6h16M4 12h16M4 18h16"
-              />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
             )}
           </svg>
         </button>
@@ -88,13 +91,14 @@ export default function Navbar() {
                 </Link>
               </li>
             ))}
-            <li>
+            <li className="flex items-center gap-3 pt-2">
+              <LanguageSwitcher locale={locale} />
               <Link
-                href="/contact"
+                href={`/${locale}/contact`}
                 onClick={() => setOpen(false)}
-                className="mt-2 inline-block rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-primary-dark"
+                className="inline-block rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-primary-dark"
               >
-                Get in Touch
+                {nav.cta}
               </Link>
             </li>
           </ul>

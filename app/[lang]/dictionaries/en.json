@@ -1,0 +1,317 @@
+{
+  "metadata": {
+    "title": "CZ Dev — Full-Stack Development for Founders",
+    "description": "We build production-grade web apps, dashboards, APIs, and infrastructure for founders who have outgrown no-code tools."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Get in Touch"
+  },
+  "hero": {
+    "heading": "We build full-stack solutions for founders who have",
+    "headingHighlight": "outgrown no-code tools.",
+    "subheading": "From idea to production — web apps, dashboards, APIs, and infrastructure. Fast delivery by a two-person team with zero coordination tax.",
+    "ctaPrimary": "Book a Free Discovery Call",
+    "ctaSecondary": "View Our Work"
+  },
+  "home": {
+    "servicesHeading": "What We Build",
+    "servicesSubheading": "End-to-end development — from concept to production.",
+    "services": [
+      {
+        "title": "Web Applications",
+        "description": "Full-stack web apps with modern frameworks, authentication, payments, and real-time features."
+      },
+      {
+        "title": "Data Dashboards",
+        "description": "Interactive analytics dashboards that turn raw data into actionable insights for your team."
+      },
+      {
+        "title": "API Development",
+        "description": "RESTful and GraphQL APIs, third-party integrations, webhooks, and microservices architecture."
+      },
+      {
+        "title": "DevOps & Cloud",
+        "description": "CI/CD pipelines, Kubernetes, cloud infrastructure, monitoring, and automated deployments."
+      },
+      {
+        "title": "Automation",
+        "description": "Workflow automation, data pipelines, scheduled tasks, and integrations that save your team hours."
+      }
+    ],
+    "featuredHeading": "Featured Projects",
+    "featuredSubheading": "Real applications in production with real users.",
+    "viewAll": "View all projects",
+    "whyUsHeading": "Why Work With Us",
+    "whyUsSubheading": "The advantages of a lean, senior two-person team.",
+    "advantages": [
+      {
+        "title": "Zero Coordination Tax",
+        "description": "Two developers who know each other's code. No standups, no Jira, no waiting on approvals."
+      },
+      {
+        "title": "Fast Delivery",
+        "description": "Small team = no bottlenecks. We ship MVPs in weeks, not months."
+      },
+      {
+        "title": "Production-Grade",
+        "description": "Automated tests, CI/CD, monitoring. We build software that runs reliably at scale."
+      },
+      {
+        "title": "Full Ownership",
+        "description": "You get the source code, the infrastructure docs, and the knowledge transfer. No lock-in."
+      }
+    ],
+    "ctaHeading": "Ready to build something?",
+    "ctaSubheading": "Book a free 30-minute discovery call. No commitment, no pitch deck required.",
+    "ctaButton": "Book a Discovery Call"
+  },
+  "services": {
+    "title": "Services",
+    "metaDescription": "Full-stack web development services: web apps, dashboards, APIs, DevOps, and automation.",
+    "heading": "Services",
+    "subheading": "We handle the full stack — from database design to deployment pipelines. You focus on your business, we handle the engineering.",
+    "items": [
+      {
+        "title": "Full-Stack Web Applications",
+        "description": "Custom web applications built with modern frameworks. Authentication, payments, real-time features, and everything in between.",
+        "details": [
+          "React / Next.js frontends",
+          "Python / Go backends",
+          "Firebase, PostgreSQL, or MongoDB",
+          "Stripe payment integration",
+          "OAuth & custom auth flows"
+        ]
+      },
+      {
+        "title": "Data Dashboards & Analytics",
+        "description": "Turn your data into clear, interactive dashboards that help your team make better decisions faster.",
+        "details": [
+          "Streamlit & custom dashboard UIs",
+          "Data pipeline development",
+          "Real-time analytics",
+          "CSV/API data ingestion",
+          "Automated reporting"
+        ]
+      },
+      {
+        "title": "API Development & Integrations",
+        "description": "RESTful APIs, webhook handlers, and third-party integrations that connect your systems together.",
+        "details": [
+          "REST & GraphQL API design",
+          "Third-party API integrations",
+          "Webhook processing",
+          "API documentation",
+          "Rate limiting & caching"
+        ]
+      },
+      {
+        "title": "DevOps & Cloud Infrastructure",
+        "description": "Reliable infrastructure that scales. CI/CD pipelines, containerization, and cloud-native architecture.",
+        "details": [
+          "Docker & Kubernetes",
+          "CI/CD pipeline setup",
+          "AWS / GCP / Azure",
+          "Infrastructure as Code",
+          "Monitoring & alerting"
+        ]
+      },
+      {
+        "title": "Process Automation",
+        "description": "Automate repetitive tasks and workflows to save your team hours every week.",
+        "details": [
+          "Workflow automation scripts",
+          "Scheduled data pipelines",
+          "Email & notification systems",
+          "Document generation",
+          "System integrations"
+        ]
+      }
+    ],
+    "processHeading": "Our Process",
+    "processSubheading": "Simple, transparent, and predictable.",
+    "process": [
+      {
+        "step": "01",
+        "title": "Discovery",
+        "description": "We hop on a 30-minute call to understand your problem, users, and constraints. No sales pitch — just listening."
+      },
+      {
+        "step": "02",
+        "title": "Proposal",
+        "description": "Within a few days, you get a clear scope document: what we'll build, the tech choices, timeline, and fixed price."
+      },
+      {
+        "step": "03",
+        "title": "Build",
+        "description": "We build in short sprints with regular demos. You see progress weekly and can course-correct early."
+      },
+      {
+        "step": "04",
+        "title": "Launch",
+        "description": "We deploy to production, set up monitoring, and make sure everything runs smoothly."
+      },
+      {
+        "step": "05",
+        "title": "Support",
+        "description": "Post-launch support to fix bugs, handle edge cases, and iterate based on user feedback."
+      }
+    ],
+    "ctaHeading": "Have a project in mind?",
+    "ctaSubheading": "Let's talk about what you need. The first call is always free.",
+    "ctaButton": "Book a Discovery Call"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "metaDescription": "Case studies and projects built by CZ Dev — production applications with real users.",
+    "heading": "Portfolio",
+    "subheading": "Real projects, real users. Click any project to read the full case study."
+  },
+  "about": {
+    "title": "About",
+    "metaDescription": "Meet the CZ Dev team — Tamas and Zsombor. Full-stack developers with combined expertise in Python, Go, React, Firebase, Kubernetes, and more.",
+    "heading": "About Us",
+    "subheading": "We're a two-person development team that builds production-grade software for founders and small teams.",
+    "team": [
+      {
+        "name": "Tamas Czaban",
+        "role": "Co-Founder & Developer",
+        "bio": "Python developer with a background in vulnerability management, data engineering, and cloud support at Citi, Ericsson, and BlackRock. Builds production-grade applications with Streamlit, Firebase, and Stripe — tools used daily by real, non-technical users. Designs with a \"Mum Test\" standard: if it isn't obvious, it gets rebuilt. Writes well-tested, maintainable code that solves actual business problems.",
+        "initial": "TC"
+      },
+      {
+        "name": "Zsombor Czaban",
+        "role": "Co-Founder & Developer",
+        "bio": "Software engineer specializing in Go and TypeScript, currently at GE Healthcare building customer onboarding tooling. Previously an algorithm engineer at Taboola working on e-commerce recommendation systems. BSc in Computer Science from ELTE, pursuing a Master's in Autonomous Systems at Aalto University. Brings backend rigour and API design discipline to every project.",
+        "initial": "ZS"
+      }
+    ],
+    "statsHeading": "What You Get With Us",
+    "stats": [
+      {
+        "value": "2",
+        "label": "Senior Developers",
+        "description": "No juniors, no project managers. Direct access to the people writing your code."
+      },
+      {
+        "value": "Full",
+        "label": "Stack Coverage",
+        "description": "Frontend, backend, infrastructure, DevOps — we handle it all without subcontracting."
+      },
+      {
+        "value": "0",
+        "label": "Coordination Overhead",
+        "description": "We work as a tight unit. No handoff meetings, no waiting on approvals from five people."
+      }
+    ],
+    "ctaHeading": "Want to work together?",
+    "ctaSubheading": "We'd love to hear about your project.",
+    "ctaButton": "Get in Touch"
+  },
+  "contact": {
+    "title": "Contact",
+    "metaDescription": "Get in touch with CZ Dev — book a free discovery call or send us a message.",
+    "heading": "Contact Us",
+    "subheading": "Have a project in mind? Book a free discovery call, send us a message, or email us directly at",
+    "formHeading": "Send a Message",
+    "formSubheading": "We'll get back to you within 24 hours.",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@company.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell us about your project...",
+    "sendButton": "Send Message",
+    "successHeading": "Message Sent!",
+    "successMessage": "Thanks for reaching out. We'll be in touch soon.",
+    "calendlyHeading": "Book a Discovery Call",
+    "calendlySubheading": "30 minutes, no commitment. Pick a time that works for you."
+  },
+  "footer": {
+    "tagline": "Full-stack development for founders who need production-grade software.",
+    "navHeading": "Navigation",
+    "contactHeading": "Contact",
+    "readyToBuild": "Ready to build something?",
+    "bookCall": "Book a free discovery call",
+    "allRightsReserved": "All rights reserved."
+  },
+  "caseStudy": {
+    "backToPortfolio": "Back to Portfolio",
+    "videoWalkthrough": "Video Walkthrough",
+    "theProblem": "The Problem",
+    "theSolution": "The Solution",
+    "architecture": "Architecture",
+    "results": "Results",
+    "viewOnGitHub": "View on GitHub",
+    "tryItLive": "Try It Live",
+    "letsTalk": "Interested? Let's Talk"
+  },
+  "projects": {
+    "bemer-crm": {
+      "title": "BEMER CRM",
+      "subtitle": "Full-stack CRM for medical device distributors",
+      "description": "A production CRM built for BEMER medical device distributors in Hungary. Manages rentals, sales, clients, contracts, and Stripe billing — replacing spreadsheets and paper processes with a streamlined web application.",
+      "problem": "BEMER medical device distributors in Hungary manage rentals, sales, clients, and contracts manually using spreadsheets and paper. There is no visibility into device availability, rental overlaps, or revenue. Contract generation is tedious and error-prone.",
+      "solution": [
+        "Built a full CRM in Streamlit + Firebase + Stripe",
+        "Device inventory management (owned + partner-borrowed devices)",
+        "Client management (renters + buyers) with contact details",
+        "Rental transaction system with calendar-based availability checking",
+        "\"Possession Envelope Rule\" — validates sub-rental dates fall within B2B possession windows",
+        "Automated contract generation (HTML → PDF, client-side)",
+        "Stripe subscription billing (free vs pro tier)",
+        "Multi-entity billing support (individual + company)",
+        "Google + Facebook OAuth with email verification"
+      ],
+      "results": [
+        "Production app with real paying users",
+        "391 automated tests across 7 modules",
+        "Atomic batch writes for data consistency",
+        "Optimistic UI with intelligent cache invalidation",
+        "\"Mum Test\" UX philosophy — built for non-technical users"
+      ],
+      "architectureDescription": "Streamlit UI → Firebase Auth + Firestore → Stripe Billing"
+    },
+    "vuln-scorer": {
+      "title": "Vulnerability Prioritization Scorer",
+      "subtitle": "Data-driven CVE risk scoring tool",
+      "description": "A Streamlit application that helps security teams prioritize CVE vulnerabilities by combining CVSS scores with real-world exploit data, threat intelligence, and asset context to produce actionable risk scores.",
+      "problem": "Security teams face thousands of CVEs and need to decide which vulnerabilities to patch first. Raw CVSS scores alone don't account for real-world exploitability, threat actor activity, or the specific asset context of an organization.",
+      "solution": [
+        "Built a scoring engine that combines multiple data sources",
+        "Integrates CVSS base scores with EPSS exploit prediction data",
+        "Factors in CISA KEV (Known Exploited Vulnerabilities) catalog",
+        "Allows custom asset criticality weighting",
+        "Produces a prioritized, actionable list of vulnerabilities to remediate"
+      ],
+      "results": [
+        "Reduces noise from thousands of CVEs to a focused remediation list",
+        "Combines multiple threat intelligence sources into a single score",
+        "Open-source tool available on GitHub"
+      ],
+      "architectureDescription": null
+    },
+    "sales-dashboard": {
+      "title": "CZ Dev Sales Dashboard",
+      "subtitle": "Internal sales pipeline and lead tracking for a dev agency",
+      "description": "A live sales operations dashboard built for CZ Dev to track leads, pipeline stages, and revenue metrics. Replaces spreadsheets with a real-time, structured view of the agency's sales funnel.",
+      "problem": "Running a dev agency means juggling inbound leads, follow-ups, proposals, and pipeline stages — all in your head or scattered across spreadsheets. There's no single place to see deal status, conversion rates, or revenue forecasts.",
+      "solution": [
+        "Built a dedicated sales dashboard for the CZ Dev agency",
+        "Tracks leads through the full pipeline from first contact to close",
+        "Real-time KPI cards: active leads, pipeline value, conversion rate, revenue",
+        "Structured deal view with status, owner, and next action"
+      ],
+      "results": [
+        "Live in production at sales.czaban.dev",
+        "Full visibility into the CZ Dev sales funnel",
+        "Replaces manual spreadsheet tracking"
+      ],
+      "architectureDescription": null
+    }
+  }
+}

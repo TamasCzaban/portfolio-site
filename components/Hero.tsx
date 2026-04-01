@@ -1,31 +1,42 @@
 import Link from "next/link";
 
-export default function Hero() {
+interface HeroDict {
+  heading: string;
+  headingHighlight: string;
+  subheading: string;
+  ctaPrimary: string;
+  ctaSecondary: string;
+}
+
+interface HeroProps {
+  locale: string;
+  hero: HeroDict;
+}
+
+export default function Hero({ locale, hero }: HeroProps) {
   return (
     <section className="relative overflow-hidden bg-surface">
       <div className="mx-auto max-w-6xl px-6 py-24 md:py-32">
         <div className="max-w-3xl">
           <h1 className="animate-fade-in-up text-4xl font-bold leading-tight tracking-tight md:text-6xl">
-            We build full-stack solutions for founders who have{" "}
-            <span className="text-primary">outgrown no-code tools.</span>
+            {hero.heading}{" "}
+            <span className="text-primary">{hero.headingHighlight}</span>
           </h1>
           <p className="animate-fade-in-up animate-delay-100 mt-6 max-w-xl text-lg text-muted md:text-xl">
-            From idea to production — web apps, dashboards, APIs, and
-            infrastructure. Fast delivery by a two-person team with zero
-            coordination tax.
+            {hero.subheading}
           </p>
           <div className="animate-fade-in-up animate-delay-200 mt-8 flex flex-col gap-4 sm:flex-row">
             <Link
-              href="/contact"
+              href={`/${locale}/contact`}
               className="inline-flex items-center justify-center rounded-lg bg-primary px-6 py-3 text-base font-semibold text-white transition-colors hover:bg-primary-dark"
             >
-              Book a Free Discovery Call
+              {hero.ctaPrimary}
             </Link>
             <Link
-              href="/portfolio"
+              href={`/${locale}/portfolio`}
               className="inline-flex items-center justify-center rounded-lg border border-border px-6 py-3 text-base font-semibold transition-colors hover:bg-surface-hover"
             >
-              View Our Work
+              {hero.ctaSecondary}
             </Link>
           </div>
         </div>

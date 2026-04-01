@@ -1,36 +1,46 @@
 import Link from "next/link";
 
-export default function Footer() {
+interface FooterDict {
+  tagline: string;
+  navHeading: string;
+  contactHeading: string;
+  readyToBuild: string;
+  bookCall: string;
+  allRightsReserved: string;
+}
+
+interface FooterProps {
+  locale: string;
+  footer: FooterDict;
+}
+
+export default function Footer({ locale, footer }: FooterProps) {
+  const navLinks = [
+    { href: `/${locale}/services`, label: "Services" },
+    { href: `/${locale}/portfolio`, label: "Portfolio" },
+    { href: `/${locale}/about`, label: "About" },
+    { href: `/${locale}/contact`, label: "Contact" },
+  ];
+
   return (
     <footer className="border-t border-border bg-surface">
       <div className="mx-auto max-w-6xl px-6 py-12">
         <div className="grid gap-8 md:grid-cols-3">
           <div>
-            <Link href="/" className="text-xl font-bold tracking-tight">
+            <Link href={`/${locale}`} className="text-xl font-bold tracking-tight">
               <span className="text-primary">CZ</span> Dev
             </Link>
-            <p className="mt-2 text-sm text-muted">
-              Full-stack development for founders who need production-grade
-              software.
-            </p>
+            <p className="mt-2 text-sm text-muted">{footer.tagline}</p>
           </div>
 
           <div>
             <h4 className="mb-3 text-sm font-semibold uppercase tracking-wider text-muted">
-              Navigation
+              {footer.navHeading}
             </h4>
             <ul className="space-y-2 text-sm">
-              {[
-                { href: "/services", label: "Services" },
-                { href: "/portfolio", label: "Portfolio" },
-                { href: "/about", label: "About" },
-                { href: "/contact", label: "Contact" },
-              ].map((l) => (
+              {navLinks.map((l) => (
                 <li key={l.href}>
-                  <Link
-                    href={l.href}
-                    className="text-muted transition-colors hover:text-foreground"
-                  >
+                  <Link href={l.href} className="text-muted transition-colors hover:text-foreground">
                     {l.label}
                   </Link>
                 </li>
@@ -40,30 +50,24 @@ export default function Footer() {
 
           <div>
             <h4 className="mb-3 text-sm font-semibold uppercase tracking-wider text-muted">
-              Contact
+              {footer.contactHeading}
             </h4>
             <p className="text-sm text-muted">
-              Ready to build something?
+              {footer.readyToBuild}
               <br />
-              <a
-                href="mailto:tamas@czaban.dev"
-                className="text-primary transition-colors hover:text-primary-dark"
-              >
+              <a href="mailto:tamas@czaban.dev" className="text-primary transition-colors hover:text-primary-dark">
                 tamas@czaban.dev
               </a>
               <br />
-              <Link
-                href="/contact"
-                className="text-primary transition-colors hover:text-primary-dark"
-              >
-                Book a free discovery call
+              <Link href={`/${locale}/contact`} className="text-primary transition-colors hover:text-primary-dark">
+                {footer.bookCall}
               </Link>
             </p>
           </div>
         </div>
 
         <div className="mt-8 border-t border-border pt-8 text-center text-sm text-muted">
-          &copy; {new Date().getFullYear()} CZ Dev. All rights reserved.
+          &copy; {new Date().getFullYear()} CZ Dev. {footer.allRightsReserved}
         </div>
       </div>
     </footer>

@@ -1,0 +1,317 @@
+{
+  "metadata": {
+    "title": "CZ Dev — Full-Stack Fejlesztés Alapítóknak",
+    "description": "Termelői minőségű webalkalmazásokat, irányítópultokat, API-kat és infrastruktúrát fejlesztünk olyan alapítóknak, akik kinőtték a no-code eszközöket."
+  },
+  "nav": {
+    "home": "Főoldal",
+    "services": "Szolgáltatások",
+    "portfolio": "Portfólió",
+    "about": "Rólunk",
+    "contact": "Kapcsolat",
+    "cta": "Lépj Kapcsolatba"
+  },
+  "hero": {
+    "heading": "Full-stack megoldásokat fejlesztünk olyan alapítóknak, akik",
+    "headingHighlight": "kinőtték a no-code eszközöket.",
+    "subheading": "Ötlettől az éles rendszerig — webalkalmazások, irányítópultok, API-k és infrastruktúra. Gyors szállítás egy kétfős csapattól, koordinációs többletköltség nélkül.",
+    "ctaPrimary": "Foglalj Ingyenes Konzultációt",
+    "ctaSecondary": "Nézd Meg Munkáinkat"
+  },
+  "home": {
+    "servicesHeading": "Mit Építünk",
+    "servicesSubheading": "Teljes körű fejlesztés — koncepttől az éles rendszerig.",
+    "services": [
+      {
+        "title": "Webalkalmazások",
+        "description": "Full-stack webalkalmazások modern keretrendszerekkel, hitelesítéssel, fizetéssel és valós idejű funkciókkal."
+      },
+      {
+        "title": "Adatvizualizáció",
+        "description": "Interaktív elemzési irányítópultok, amelyek nyers adatokból cselekvésre alkalmas betekintéseket nyújtanak csapatod számára."
+      },
+      {
+        "title": "API Fejlesztés",
+        "description": "RESTful és GraphQL API-k, harmadik féltől származó integrációk, webhookok és mikro-architektúra."
+      },
+      {
+        "title": "DevOps & Cloud",
+        "description": "CI/CD pipeline-ok, Kubernetes, felhő infrastruktúra, monitorozás és automatizált telepítések."
+      },
+      {
+        "title": "Automatizálás",
+        "description": "Munkafolyamat-automatizálás, adatpipeline-ok, ütemezett feladatok és integrációk, amelyek órákat spórolnak csapatodnak."
+      }
+    ],
+    "featuredHeading": "Kiemelt Projektek",
+    "featuredSubheading": "Valós alkalmazások élesben, valós felhasználókkal.",
+    "viewAll": "Összes projekt megtekintése",
+    "whyUsHeading": "Miért Válassz Minket",
+    "whyUsSubheading": "Egy karcsú, senior kétfős csapat előnyei.",
+    "advantages": [
+      {
+        "title": "Nulla Koordinációs Overhead",
+        "description": "Két fejlesztő, aki ismeri egymás kódját. Nincs standup, nincs Jira, nincs várakozás jóváhagyásokra."
+      },
+      {
+        "title": "Gyors Szállítás",
+        "description": "Kis csapat = nincs szűk keresztmetszet. MVP-t szállítunk heteken belül, nem hónapok alatt."
+      },
+      {
+        "title": "Termelői Minőség",
+        "description": "Automatizált tesztek, CI/CD, monitorozás. Olyan szoftvert fejlesztünk, amely megbízhatóan fut élesben."
+      },
+      {
+        "title": "Teljes Tulajdon",
+        "description": "Megkapod a forráskódot, az infrastruktúra dokumentációt és a tudásátadást. Nincs kötöttség."
+      }
+    ],
+    "ctaHeading": "Kész Valamit Építeni?",
+    "ctaSubheading": "Foglalj ingyenes 30 perces konzultációt. Kötelezettség nélkül, prezentáció sem szükséges.",
+    "ctaButton": "Foglalj Konzultációt"
+  },
+  "services": {
+    "title": "Szolgáltatások",
+    "metaDescription": "Full-stack webfejlesztési szolgáltatások: webalkalmazások, irányítópultok, API-k, DevOps és automatizálás.",
+    "heading": "Szolgáltatások",
+    "subheading": "A teljes stacket kezeljük — adatbázis tervezéstől a telepítési pipeline-okig. Te a vállalkozásodra koncentrálj, mi kezeljük a mérnöki munkát.",
+    "items": [
+      {
+        "title": "Full-Stack Webalkalmazások",
+        "description": "Egyedi webalkalmazások modern keretrendszerekkel. Hitelesítés, fizetés, valós idejű funkciók és minden egyéb.",
+        "details": [
+          "React / Next.js frontend",
+          "Python / Go backend",
+          "Firebase, PostgreSQL vagy MongoDB",
+          "Stripe fizetési integráció",
+          "OAuth és egyedi hitelesítési folyamatok"
+        ]
+      },
+      {
+        "title": "Adatvizualizáció és Analitika",
+        "description": "Alakítsd az adataidat átlátható, interaktív irányítópultokká, amelyek segítenek csapatodnak gyorsabban dönteni.",
+        "details": [
+          "Streamlit és egyedi irányítópult UI-k",
+          "Adatpipeline fejlesztés",
+          "Valós idejű analitika",
+          "CSV/API adatbevitel",
+          "Automatizált riportálás"
+        ]
+      },
+      {
+        "title": "API Fejlesztés és Integrációk",
+        "description": "RESTful API-k, webhook kezelők és harmadik féltől származó integrációk, amelyek összekapcsolják rendszereidet.",
+        "details": [
+          "REST és GraphQL API tervezés",
+          "Harmadik féltől származó API integrációk",
+          "Webhook feldolgozás",
+          "API dokumentáció",
+          "Rate limiting és cachelés"
+        ]
+      },
+      {
+        "title": "DevOps és Felhő Infrastruktúra",
+        "description": "Megbízható infrastruktúra, amely skálázódik. CI/CD pipeline-ok, konténerizáció és cloud-native architektúra.",
+        "details": [
+          "Docker és Kubernetes",
+          "CI/CD pipeline beállítás",
+          "AWS / GCP / Azure",
+          "Infrastructure as Code",
+          "Monitorozás és riasztás"
+        ]
+      },
+      {
+        "title": "Folyamat Automatizálás",
+        "description": "Automatizáld az ismétlődő feladatokat és munkafolyamatokat, hogy csapatod órákat spóroljon hetente.",
+        "details": [
+          "Munkafolyamat automatizálási szkriptek",
+          "Ütemezett adatpipeline-ok",
+          "E-mail és értesítési rendszerek",
+          "Dokumentumgenerálás",
+          "Rendszerintegrációk"
+        ]
+      }
+    ],
+    "processHeading": "Folyamatunk",
+    "processSubheading": "Egyszerű, átlátható és kiszámítható.",
+    "process": [
+      {
+        "step": "01",
+        "title": "Feltárás",
+        "description": "Egy 30 perces hívással kezdjük, hogy megértsük a problémádat, felhasználóidat és korlátaidat. Nincs értékesítési prezentáció — csak figyelünk."
+      },
+      {
+        "step": "02",
+        "title": "Javaslat",
+        "description": "Néhány napon belül kapsz egy világos hatókör dokumentumot: mit fogunk felépíteni, a technológiai döntések, ütemterv és fix ár."
+      },
+      {
+        "step": "03",
+        "title": "Fejlesztés",
+        "description": "Rövid sprintekben fejlesztünk rendszeres demókkal. Heti szinten látod a haladást és korán korrigálhatsz."
+      },
+      {
+        "step": "04",
+        "title": "Élesítés",
+        "description": "Telepítünk élesbe, beállítjuk a monitorozást és biztosítjuk, hogy minden zökkenőmentesen fusson."
+      },
+      {
+        "step": "05",
+        "title": "Támogatás",
+        "description": "Élesítés utáni támogatás hibák javításához, edge case-ek kezeléséhez és felhasználói visszajelzések alapján való iterációhoz."
+      }
+    ],
+    "ctaHeading": "Van egy projektötleted?",
+    "ctaSubheading": "Beszéljük meg, mire van szükséged. Az első hívás mindig ingyenes.",
+    "ctaButton": "Foglalj Konzultációt"
+  },
+  "portfolio": {
+    "title": "Portfólió",
+    "metaDescription": "A CZ Dev által épített esettanulmányok és projektek — éles alkalmazások valós felhasználókkal.",
+    "heading": "Portfólió",
+    "subheading": "Valós projektek, valós felhasználók. Kattints bármely projektre a teljes esettanulmány olvasásához."
+  },
+  "about": {
+    "title": "Rólunk",
+    "metaDescription": "Ismerd meg a CZ Dev csapatát — Tamás és Zsombor. Full-stack fejlesztők Python, Go, React, Firebase, Kubernetes és sok más területen.",
+    "heading": "Rólunk",
+    "subheading": "Kétfős fejlesztőcsapat vagyunk, amely termelői minőségű szoftvereket fejleszt alapítóknak és kis csapatoknak.",
+    "team": [
+      {
+        "name": "Czaban Tamás",
+        "role": "Társ-alapító és Fejlesztő",
+        "bio": "Python fejlesztő, hátterét sebezhetőség-menedzsment, adatmérnökség és felhő támogatás területén szerezte a Citinél, Ericssonnál és a BlackRocknál. Termelői minőségű alkalmazásokat fejleszt Streamlit, Firebase és Stripe segítségével — olyan eszközöket, amelyeket valós, nem technikai felhasználók használnak naponta. A \"Anyuka Tesztet\" alkalmaz design standard gyanánt: ha nem nyilvánvaló, újraépíti. Jól tesztelt, karbantartható kódot ír, amely valódi üzleti problémákat old meg.",
+        "initial": "TC"
+      },
+      {
+        "name": "Czaban Zsombor",
+        "role": "Társ-alapító és Fejlesztő",
+        "bio": "Szoftvermérnök, Go és TypeScript specialista, jelenleg a GE Healthcare-nél dolgozik ügyfélfelvételi eszközökön. Korábban algoritmus-mérnök volt a Taboola-nál e-kereskedelmi ajánlórendszereken. Számítástudományból BSc-t szerzett az ELTE-n, Autonóm Rendszerek mesterképzést végez az Aalto Egyetemen. Backend precizitást és API tervezési fegyelmet hoz minden projektbe.",
+        "initial": "ZS"
+      }
+    ],
+    "statsHeading": "Mit Kapsz Velünk",
+    "stats": [
+      {
+        "value": "2",
+        "label": "Senior Fejlesztő",
+        "description": "Nincs junior, nincs projektmenedzser. Közvetlen hozzáférés a kódodat írókhoz."
+      },
+      {
+        "value": "Teljes",
+        "label": "Stack Lefedettség",
+        "description": "Frontend, backend, infrastruktúra, DevOps — mindent mi intézünk, alvállalkozó nélkül."
+      },
+      {
+        "value": "0",
+        "label": "Koordinációs Overhead",
+        "description": "Szoros egységként dolgozunk. Nincs átadási meeting, nincs öt embertől való jóváhagyásra várás."
+      }
+    ],
+    "ctaHeading": "Együtt szeretnél dolgozni?",
+    "ctaSubheading": "Szívesen hallanánk a projektedről.",
+    "ctaButton": "Lépj Kapcsolatba"
+  },
+  "contact": {
+    "title": "Kapcsolat",
+    "metaDescription": "Vedd fel a kapcsolatot a CZ Dev-vel — foglalj ingyenes konzultációt vagy küldj üzenetet.",
+    "heading": "Kapcsolat",
+    "subheading": "Van egy projektötleted? Foglalj ingyenes konzultációt, küldj üzenetet, vagy írj közvetlenül:",
+    "formHeading": "Küldj Üzenetet",
+    "formSubheading": "24 órán belül visszajelzünk.",
+    "nameLabel": "Név",
+    "namePlaceholder": "A neved",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "te@valami.hu",
+    "messageLabel": "Üzenet",
+    "messagePlaceholder": "Mesélj a projektedről...",
+    "sendButton": "Üzenet Küldése",
+    "successHeading": "Üzenet Elküldve!",
+    "successMessage": "Köszönjük, hogy megkerestél. Hamarosan visszajelzünk.",
+    "calendlyHeading": "Foglalj Konzultációt",
+    "calendlySubheading": "30 perc, kötelezettség nélkül. Válassz egy számodra megfelelő időpontot."
+  },
+  "footer": {
+    "tagline": "Full-stack fejlesztés olyan alapítóknak, akiknek termelői minőségű szoftverre van szükségük.",
+    "navHeading": "Navigáció",
+    "contactHeading": "Kapcsolat",
+    "readyToBuild": "Kész valamit építeni?",
+    "bookCall": "Ingyenes konzultáció foglalása",
+    "allRightsReserved": "Minden jog fenntartva."
+  },
+  "caseStudy": {
+    "backToPortfolio": "Vissza a Portfólióhoz",
+    "videoWalkthrough": "Videó Bemutató",
+    "theProblem": "A Probléma",
+    "theSolution": "A Megoldás",
+    "architecture": "Architektúra",
+    "results": "Eredmények",
+    "viewOnGitHub": "Megtekintés GitHubon",
+    "tryItLive": "Kipróbálás Élőben",
+    "letsTalk": "Érdekel? Beszéljük Meg"
+  },
+  "projects": {
+    "bemer-crm": {
+      "title": "BEMER CRM",
+      "subtitle": "Full-stack CRM orvosi eszköz forgalmazóknak",
+      "description": "Éles CRM rendszer, amelyet magyarországi BEMER orvosi eszköz forgalmazók számára fejlesztettünk. Bérletek, értékesítések, ügyfelek, szerződések és Stripe számlázás kezelése — táblázatok és papíralapú folyamatok felváltása egy korszerű webalkalmazással.",
+      "problem": "A magyarországi BEMER orvosi eszköz forgalmazók manuálisan kezelik a bérleteket, értékesítéseket, ügyfeleket és szerződéseket, táblázatok és papír segítségével. Nincs átláthatóság az eszközök elérhetőségéről, bérleti átfedésekről vagy bevételekről. A szerződésgenerálás fárasztó és hibalehetőségekkel teli.",
+      "solution": [
+        "Teljes CRM fejlesztése Streamlit + Firebase + Stripe alapon",
+        "Eszközleltár kezelés (saját és partnertől kölcsönzött eszközök)",
+        "Ügyfélkezelés (bérlők + vásárlók) elérhetőségi adatokkal",
+        "Bérleti tranzakciós rendszer naptáralapú elérhetőség-ellenőrzéssel",
+        "\"Borítékszabály\" — validálja, hogy az albérleti dátumok a B2B birtok-időszakokon belül esnek",
+        "Automatizált szerződésgenerálás (HTML → PDF, kliens-oldali)",
+        "Stripe előfizetéses számlázás (ingyenes és pro csomag)",
+        "Több entitásos számlázás támogatása (magánszemély + cég)",
+        "Google + Facebook OAuth e-mail megerősítéssel"
+      ],
+      "results": [
+        "Éles alkalmazás valós fizető felhasználókkal",
+        "391 automatizált teszt 7 modulban",
+        "Atomi kötegelt írások az adatkonsistenciáért",
+        "Optimista UI intelligens gyorsítótár-érvénytelenítéssel",
+        "\"Anyuka Teszt\" UX filozófia — nem technikai felhasználókra tervezve"
+      ],
+      "architectureDescription": "Streamlit UI → Firebase Auth + Firestore → Stripe Számlázás"
+    },
+    "vuln-scorer": {
+      "title": "Sebezhetőség Prioritizáló Értékelő",
+      "subtitle": "Adatvezérelt CVE kockázatértékelő eszköz",
+      "description": "Egy Streamlit alkalmazás, amely segít a biztonsági csapatoknak a CVE sebezhetőségek prioritizálásában azáltal, hogy CVSS pontszámokat kombinál valós kihasználtsági adatokkal, fenyegetési intelligenciával és eszközök kontextusával cselekvésre alkalmas kockázati pontszámok előállításához.",
+      "problem": "A biztonsági csapatoknak több ezer CVE-vel kell szembenézniük, és el kell dönteniük, mely sebezhetőségeket kell először javítani. A nyers CVSS pontszámok önmagukban nem veszik figyelembe a valós kihasználhatóságot, a fenyegető szereplők aktivitását, vagy egy szervezet specifikus eszközkontextusát.",
+      "solution": [
+        "Többadatforrásos értékelési motor fejlesztése",
+        "CVSS alappontszámok integrálása EPSS kihasználási előrejelzési adatokkal",
+        "CISA KEV (Ismert Kihasznált Sebezhetőségek) katalógus figyelembevétele",
+        "Egyéni eszközkritikusság súlyozás lehetősége",
+        "Prioritizált, cselekvésre alkalmas sebezhetőségi lista előállítása"
+      ],
+      "results": [
+        "Ezernyi CVE zajától egy fókuszált javítási listáig",
+        "Több fenyegetési intelligencia forrás egyetlen pontszámba kombinálva",
+        "Nyílt forráskódú eszköz elérhető GitHubon"
+      ],
+      "architectureDescription": null
+    },
+    "sales-dashboard": {
+      "title": "CZ Dev Értékesítési Irányítópult",
+      "subtitle": "Belső értékesítési pipeline és lead nyomkövetés egy dev ügynökségnek",
+      "description": "Élő értékesítési műveleti irányítópult, amelyet a CZ Dev számára fejlesztettünk leadek, pipeline szakaszok és bevételi mérőszámok nyomon követésére. Táblázatokat vált fel egy valós idejű, strukturált nézettel az ügynökség értékesítési tölcséréről.",
+      "problem": "Egy dev ügynökség futtatása azt jelenti, hogy bejövő leadeket, follow-up-okat, ajánlatokat és pipeline szakaszokat kell zsonglőrködni — fejben vagy táblázatokban szétszórva. Nincs egyetlen hely, ahol látni az üzlet státuszát, konverziós arányokat vagy bevételi előrejelzéseket.",
+      "solution": [
+        "Dedikált értékesítési irányítópult fejlesztése a CZ Dev ügynökségnek",
+        "Leadek nyomon követése az első kapcsolatfelvételtől a lezárásig",
+        "Valós idejű KPI kártyák: aktív leadek, pipeline érték, konverziós arány, bevétel",
+        "Strukturált üzlet nézet státusszal, tulajdonossal és következő lépéssel"
+      ],
+      "results": [
+        "Élőben elérhető a sales.czaban.dev címen",
+        "Teljes átláthatóság a CZ Dev értékesítési tölcsérébe",
+        "Manuális táblázatos nyomkövetés felváltva"
+      ],
+      "architectureDescription": null
+    }
+  }
+}

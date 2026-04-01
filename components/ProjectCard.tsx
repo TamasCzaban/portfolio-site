@@ -2,6 +2,7 @@ import Link from "next/link";
 
 interface ProjectCardProps {
   slug: string;
+  locale: string;
   title: string;
   subtitle: string;
   techStack: string[];
@@ -10,6 +11,7 @@ interface ProjectCardProps {
 
 export default function ProjectCard({
   slug,
+  locale,
   title,
   subtitle,
   techStack,
@@ -17,7 +19,7 @@ export default function ProjectCard({
 }: ProjectCardProps) {
   return (
     <Link
-      href={`/portfolio/${slug}`}
+      href={`/${locale}/portfolio/${slug}`}
       className="group block overflow-hidden rounded-xl border border-border bg-background transition-all hover:border-primary/30 hover:shadow-lg"
     >
       <div className="aspect-video bg-surface p-8 flex items-center justify-center">
